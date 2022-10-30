@@ -1994,6 +1994,24 @@ Responsive
 }
 
 @media (max-width: 767px) {
+  .block__head-link span {
+    display: none;
+  }
+  .site-heading {
+    flex-direction: column;
+    align-items: start;
+  }
+  .block__head-link {
+    margin-top: -20px;
+    margin-bottom: 15px;
+  }
+  .block__head-link a {
+    margin-left: 0;
+  }
+  .footer-top, .footer-copyright {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   .country-col {
     width: 50%;
   }
