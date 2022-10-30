@@ -1855,7 +1855,8 @@ Responsive
     position: fixed;
     width: 100%;
     z-index: 2000;
-    margin-top: -10px;
+    margin-top: -5px;
+    margin-left: -17px;
   }
   .navIcon {
     display: block;
@@ -1943,7 +1944,7 @@ Responsive
 }
   .menuRight span {
     display: block;
-    padding-top: 10px;
+    padding-top: 8px;
   }
   .jobguru-responsive-menu {
     display: block;
@@ -2037,7 +2038,7 @@ Responsive
   }
   .menuRight span {
     display: block;
-    padding-top: .5rem;
+    padding-top: 4px;
   }
   .jobguru-responsive-menu {
     display: block;
