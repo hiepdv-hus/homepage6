@@ -1461,7 +1461,9 @@ svg path{
   transform: translateY(-4px);
   box-shadow: 0 5px 25px rgb(0 0 0 / 30%);
 }
-
+.single-blog:hover h3{
+  color: var(--bs-primary) !important;
+}
 .item-footer-date,
 [class*="card-img"] {
   position: relative;
