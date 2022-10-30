@@ -25,7 +25,7 @@ body {
   line-height: 26px;
   overflow-wrap: break-word;
   word-break: normal;
-  transition: background-color 0.5s;
+  transition: 0.5s;
 }
 
 html,
@@ -676,7 +676,9 @@ header ul li a {
   color: #000;
   transition: 0.2s;
 }
-
+.header-right-menu ul li{
+  padding: 0;
+}
 .has-children__down:after {
   font-family: Fontawesome;
   content: "\f0d7";
