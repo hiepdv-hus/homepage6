@@ -72,7 +72,7 @@
     }
     .jobguru-header-area.page-header a,
     .jobguru-header-area.page-header a {
-        color: #fff !important;
+        color: #000 !important;
         text-align: center;
     }
     .sidenav a:hover {
@@ -456,10 +456,10 @@
         padding-left: 1.75rem !important;
         padding-right: 1.75rem !important;
     }
-    .jobguru-header-area.page-header a,
+    /* .jobguru-header-area.page-header a,
     .jobguru-header-area.page-header a {
         text-align: left;
-    }
+    } */
 }
 
 

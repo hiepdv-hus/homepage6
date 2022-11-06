@@ -41,7 +41,7 @@
     }
     .jobguru-header-area.page-header a,
     .jobguru-header-area.page-header a {
-        color: #fff !important;
+        color: #000 !important;
         text-align: center;
     }
     .sidenav {
@@ -1248,10 +1248,6 @@
         text-align: left;
         padding: 0;
         margin-bottom: 3px;
-    }
-    .jobguru-header-area.page-header a,
-    .jobguru-header-area.page-header a {
-        text-align: left;
     }
 }
 

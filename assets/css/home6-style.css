@@ -985,6 +985,9 @@ header ul li a {
 .job-item__name a{
   color: var(--bs-primary) !important;
 }
+.job-item__heart a{
+  color: #6c757d !important;
+}
 .feature-job-body .job-item__title {
   background-color: var(--bs-background);
   padding: 1.25rem 1rem;
@@ -2060,7 +2063,10 @@ Responsive
   }
   .subscribe-inp {
     width: 100%;
-}
+  }
+  .blogs-img-height {
+    height: 234px !important;
+  }
   .searchApp {
     text-align: center;
   }
