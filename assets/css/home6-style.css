@@ -102,6 +102,10 @@ p {
   transition: .3s;
   background: var(--bs-primary);
 }
+.jobguru-banner-btn:hover {
+  box-shadow: 0px 0px 30px rgb(0 0 0 / 30%);
+    color: #fff;
+}
 .jobguru-btn {
   display: inline-block;
   padding: 10px 50px;
@@ -259,7 +263,7 @@ h6 {
 }
 
 a {
-  color: #6b739c;
+  color: #000;
   text-decoration: none;
 }
 
