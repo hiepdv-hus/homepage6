@@ -578,7 +578,7 @@ header .jobguru-btn:hover {
     display: inline-block;
       padding: 8px 25px;
       text-transform: capitalize;
-      color: #fff;
+      color: #000;
       font-family: "Montserrat", sans-serif;
       font-weight: 500;
       background: transparent;
@@ -588,9 +588,9 @@ header .jobguru-btn:hover {
   }
   
   .post-jobs:hover {
-    background: #3454f1d5 none repeat scroll 0 0;
+    background: #14b85e98 none repeat scroll 0 0;
     color: #fff;
-    box-shadow: 0px 0px 30px rgb(0 0 0 / 10%);
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 30%);
   }
 
 

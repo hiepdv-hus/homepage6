@@ -7402,7 +7402,7 @@ p.price-line {
     top: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(248.78deg, #050C38 8.36%, #0E164E 103.63%);
+    background: rgb(20 184 93 / 46%);
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"
 }
