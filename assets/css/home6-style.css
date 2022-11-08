@@ -1127,6 +1127,9 @@ i.fa-heart {
 .shadow-min2:hover .job-title {
   color: var(--bs-primary) !important;
 }
+.shadow-min2:hover .job-company-name {
+  color: var(--bs-primary);
+}
 a.read-more {
   padding: 5px 15px;
   font-weight: 700;
@@ -1187,7 +1190,7 @@ a.read-more:hover {
 .feature-category .tab-content1,
 .sidebar-list-single {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   flex-direction: column;
   background: #E7EBF0;
   border: 0;
@@ -1343,7 +1346,13 @@ svg path{
   font-size: 25px;
   color: var(--bs-primary);
 }
-
+.top-company-footer {
+  position: relative;
+    display: block;
+    flex-grow: 0;
+    width: inherit;
+    min-height: 1px;
+}
 
 /*================================================
 13 - VIDEO AREA CSS

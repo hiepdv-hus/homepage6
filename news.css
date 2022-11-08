@@ -453,7 +453,7 @@ header,
 }
 
 .site-logo img {
-    width: 5rem;
+    width: 10.5rem;
 }
 img.non-stick-logo {
     display: none
@@ -539,7 +539,7 @@ header {
 
 .header-right-menu ul li a {
     display: block;
-    padding: 8px 15px;
+    /* padding: 8px 15px; */
     text-transform: capitalize;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500

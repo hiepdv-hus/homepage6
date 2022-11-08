@@ -636,7 +636,7 @@ header,
 }
 
 .site-logo img {
-    width: 5rem;
+    width: 10.5rem;
 }
 
 img.non-stick-logo {
@@ -722,7 +722,7 @@ header {
 
 .header-right-menu ul li a {
     display: block;
-    padding: 8px 15px;
+    /* padding: 8px 15px; */
     text-transform: capitalize;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -1808,7 +1808,7 @@ label.styled {
 }
 
 label.styled:before {
-    content: 'ÃƒÂ¢Ã…â€œÃ¢â‚¬Å“';
+    content: 'ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ';
     line-height: 40px;
     font-size: 18px;
     color: #fff;

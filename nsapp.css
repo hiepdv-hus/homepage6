@@ -7383,6 +7383,7 @@ p.price-line {
 .search-banner-area {
     position: relative;
     width: 100%;
+    margin-top: 70px;
 }
 
 .search-banner-single-slider {
@@ -7402,7 +7403,7 @@ p.price-line {
     top: 0;
     height: 100%;
     width: 100%;
-    background: rgb(20 184 93 / 46%);
+    background: var(--bs-primary);
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"
 }
@@ -7454,7 +7455,7 @@ p.price-line {
 
 .container-search .f-j-box-search {
     height: 50px;
-    background-color: var(--bs-primary) !important;
+    background-color: #6cc592 !important;
     border: none;
     color: #262626;
     -webkit-border-radius: 50rem;
@@ -7471,8 +7472,8 @@ p.price-line {
 }
 
 .container-search .f-j-box-search:focus-within {
-    background-color: #1b80a9b0 !important;
-    border-color: #0d5e7eb0;
+    background-color: #6ab38a !important;
+    border-color: #6ab38a;
     box-shadow: 0 0 0 0.25rem rgba(80, 140, 189, 0.25);
     border-radius: 50rem;
 }
@@ -9043,3 +9044,222 @@ nav.blog-categories a.active {
     box-shadow: none;
     opacity: 0.5;
 }
+
+
+/*****
+Begin::dashboard user
+*****/
+
+.earnings-icon .avatar-preview {
+    width: 42px !important;
+    height: 42px !important;
+    display: block;
+    border-radius: 100%;
+    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16) !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.earnings-icon .avatar-preview>div {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.earnings-icon .avatar-preview i {
+    width: 42px;
+    height: 42px;
+    font-size: 42px;
+    text-align: center;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.d-board-company-logo {
+    height: 42px;
+    width: 42px;
+}
+
+.d-board-company-logo-img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.d-board-company-logo {
+    position: relative;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: inline-block;
+    -webkit-box-shadow: 0px 1px 5px rgba(44, 43, 43, 0.6) !important;
+    box-shadow: rgba(53, 52, 52, 0.6) 0px 1px 5px;
+}
+
+.d-board-company-logo>a.p-company-name>div {
+    width: 100%;
+    height: 100%;
+    background-color: var(--bs-primary);
+    /* background-color: #50bd7f !important; */
+    -webkit-transition: width .55s ease;
+    -moz-transition: width .55s ease;
+    -ms-transition: width .55s ease;
+    -o-transition: width .55s ease;
+    transition: width .55s ease;
+    color: #fff;
+    line-height: 42px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.single-earnings {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.single-earnings h3 {
+    color: #fff;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+
+.single-earnings p {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.single-earnings .email {
+    color: #FFFFFF;
+    text-overflow: ellipsis;
+}
+
+.single-earnings .subscribe-date {
+    margin-top: 5px !important;
+}
+
+.earnings-icon .ic-box {
+    height: 36px;
+    width: 36px;
+}
+
+.single-earnings a:hover {
+    color: rgb(228, 220, 220);
+}
+
+.single-earnings a:hover h2 {
+    color: rgb(228, 220, 220);
+}
+
+.single-earnings a.p-company-name {
+    color: #fff !important;
+}
+
+.single-earnings a.p-company-name:hover {
+    color: rgb(228, 220, 220);
+}
+
+.single-earnings span.small {
+    font-size: 14px;
+}
+
+.single-earnings .btn-edit_subs {
+    border: none;
+    background-color: #50bd7f !important;
+    -webkit-transition: width .55s ease;
+    -moz-transition: width .55s ease;
+    -ms-transition: width .55s ease;
+    -o-transition: width .55s ease;
+    transition: width .55s ease;
+    color: #fff;
+}
+
+.single-earnings .btn-edit_subs:hover {
+    color: rgb(228, 220, 220);
+    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16) !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.single-balance-box {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px 0px;
+}
+
+.single-balance-box .current-sign {
+    top: -15px;
+    position: relative;
+    font-size: 16px;
+}
+
+.single-balance-box .last-payment {
+    color: #000;
+}
+
+.single-balance-box .last-payment .current-sign {
+    top: -6px;
+    position: relative;
+    font-size: 16px;
+}
+
+.single-balance-box p {
+    margin-bottom: 5px;
+}
+
+.single-balance-box .c-plan-list>span {
+    text-transform: capitalize;
+    padding-right: 3px;
+}
+
+.chart-box {
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    border-radius: 5px;
+    margin-top: 30px !important;
+    padding: 20px;
+}
+
+.single-earnings-box-post h4 {
+    font-weight: 600;
+}
+
+.single-earnings-box-post h2 {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 3px;
+    font-size: 25px;
+}
+
+.single-earnings-box-post h2 a {
+    color: #fff;
+}
+
+.single-earnings-box-post a.views-count:hover {
+    color: rgb(228, 220, 220) !important;
+}
+
+.single-earnings-box-post a:hover {
+    color: #fff !important
+}
+
+.single-earnings-box-post span.small {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.chart-pie-box {
+    border: none;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+/*****
+Begin::dashboard user
+*****/

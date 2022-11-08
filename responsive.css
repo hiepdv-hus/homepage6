@@ -106,6 +106,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
     .menuRight span {
       display: block;
+      padding-top: 8px;
     }
     .jobguru-responsive-menu {
         display: block;
@@ -346,7 +347,10 @@
         font-weight: 500;
     }
     .site-logo img {
-        width: 5rem;
+        width: 8rem;
+    }
+    .search-banner-area {
+        margin-top: 0;
     }
     .slicknav_nav {
         position: absolute;
@@ -1190,6 +1194,7 @@
 @media (max-width:767px) {
     .menuRight span {
       display: block;
+      padding-top: 4px;
     }
     .h-m-none:not(.show) {
         display: none
