@@ -1201,6 +1201,15 @@ a.read-more:hover {
   background-color: var(--bs-primary);
   color: #fff;
 }
+.icon-category__two {
+  display: none;
+}
+.feature-category .tab-content1:hover .icon-category__one {
+  display: none;
+}
+.feature-category .tab-content1:hover .icon-category__two {
+  display: block;
+}
 .feature-category .tab-content1:hover .icon-category svg path{
   fill: #fff !important;
 }
