@@ -1038,9 +1038,12 @@ header ul li a {
   width: 88px;
   height: 88px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .academic-job-img img{
-  width: 90%;
+  width: 100%;
   transition: transform 0.3s;
 } 
 .academic-job-content {
